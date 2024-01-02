@@ -1,8 +1,8 @@
-const button = document.querySelector('#myButton');
+const button = document.querySelector("#myButton");
 
-button = addEventListener('click', function() {
-    document.querySelector('#player').play();
-    document.querySelector('#myVideo').play();
+button.addEventListener("click", function() {
+    document.querySelector("#player").play();
+    document.querySelector("#myVideo").play();
 })
 
 
