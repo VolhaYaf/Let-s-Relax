@@ -25,3 +25,25 @@
     min-height: 100%;
     z-index: -1;
 }
+
+#myButton {
+    display: none;
+}
+
+
+
+
+@media all and (max-width: 520px){
+    #myButton {
+        display: block;
+        padding: 10px;
+        border-radius: 7px;
+        border: none;
+        width: 100px;
+        background: linear-gradient(to right, #d6ffdc, #feebfb);
+    }
+
+    body {
+        background: linear-gradient(to right, #d6ffdc, #feebfb);
+    }
+}
