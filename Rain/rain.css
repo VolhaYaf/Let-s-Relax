@@ -1,0 +1,27 @@
+#container-countdown {
+    display: flex;
+    justify-content: center;
+}
+
+#countdown {
+    background: linear-gradient(to right, #d6ffdc, #feebfb);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #464c47;
+    padding: 15px;
+    border-radius: 7px;
+    width: 100px;
+    text-align: center;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
