@@ -1,3 +1,11 @@
+const button = document.querySelector('#myButton');
+button = addEventListener('click', function(){
+    document.querySelector('#player').play();
+    document.querySelector('#myVideo').play();
+})
+
+
+
 const timer  = 5;
 let amountTime = timer * 60;
 
@@ -24,3 +32,5 @@ function calculateTime() {
 }
 
 let timerID = setInterval(calculateTime, 1000);
+
+
